@@ -1,6 +1,6 @@
 # SOC-Image-Resolution
 
-__data-utils.py__
+##__data-utils.py__
 
 Preparing and Loading the Dataset
 In data_utils.py, I learned how to handle and preprocess datasets for training, validation, and testing in PyTorch:
@@ -20,7 +20,7 @@ I made the data pipeline flexible for different scale factors (e.g., ×2, ×4) s
 Reproducibility
 By using consistent random crops and preprocessing steps, I ensured that the training is reproducible and aligned with academic standards.
 
-__Model.py__
+##__Model.py__
 
 
 Designing the Super-Resolution Model
@@ -44,7 +44,7 @@ I implemented the forward() function to define how data flows through the layers
 Modularity
 I structured the model in a modular way so it can be easily trained, evaluated, or extended later.
 
-__loss.py__
+##__loss.py__
 
 Implementing Loss Functions
 In loss.py, I learned how to define and use custom loss functions to train super-resolution models more effectively:
