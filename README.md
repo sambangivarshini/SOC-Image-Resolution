@@ -1,6 +1,6 @@
 # SOC-Image-Resolution
 
-data-utils.py
+__data-utils.py__
 
 Preparing and Loading the Dataset
 In data_utils.py, I learned how to handle and preprocess datasets for training, validation, and testing in PyTorch:
@@ -20,7 +20,9 @@ I made the data pipeline flexible for different scale factors (e.g., ×2, ×4) s
 Reproducibility
 By using consistent random crops and preprocessing steps, I ensured that the training is reproducible and aligned with academic standards.
 
-Model.py
+__Model.py__
+
+
 Designing the Super-Resolution Model
 In model.py, I learned how to architect and implement a Convolutional Neural Network (CNN) using PyTorch for image super-resolution. Key takeaways include:
 
@@ -42,7 +44,7 @@ I implemented the forward() function to define how data flows through the layers
 Modularity
 I structured the model in a modular way so it can be easily trained, evaluated, or extended later.
 
-loss.py
+__loss.py__
 
 Implementing Loss Functions
 In loss.py, I learned how to define and use custom loss functions to train super-resolution models more effectively:
