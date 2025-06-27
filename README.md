@@ -5,7 +5,7 @@
 Preparing and Loading the Dataset
 In data_utils.py, I learned how to handle and preprocess datasets for training, validation, and testing in PyTorch:
 
-Using PyTorch Datasets and Dataloaders
+Using PyTorch Datasets and Dataloaders:
 I created custom dataset classes (TrainingSetLoader, ValidationSetLoader, and TestingSetLoader) to efficiently load and batch data.
 
 Data Augmentation
